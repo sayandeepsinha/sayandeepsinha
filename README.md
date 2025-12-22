@@ -76,11 +76,11 @@ class SayandeepSinha:
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="65" height="65" alt="React"/><br>React
     </td>
+  </tr>
+  <tr>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="65" height="65" alt="Node.js"/><br>Node.js
     </td>
-  </tr>
-  <tr>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="65" height="65" alt="Docker"/><br>Docker
     </td>
@@ -91,13 +91,13 @@ class SayandeepSinha:
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="65" height="65" alt="PostgreSQL"/><br>PostgreSQL
     </td>
     <td align="center" width="96">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="65" height="65" alt="MongoDB"/><br>MongoDB
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original. svg" width="65" height="65" alt="Redis"/><br>Redis
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="65" height="65" alt="SQL"/><br>SQL
     </td>
   </tr>
   <tr>
+    <td align="center" width="96">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="65" height="65" alt="Redis"/><br>Redis
+    </td>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="65" height="65" alt="Git"/><br>Git
     </td>
@@ -106,6 +106,9 @@ class SayandeepSinha:
     </td>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" width="65" height="65" alt="Nginx"/><br>Nginx
+    </td>
+    <td align="center" width="96">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="65" height="65" alt="MongoDB"/><br>MongoDB
     </td>
   </tr>
 </table>
