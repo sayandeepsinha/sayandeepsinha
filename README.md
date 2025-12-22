@@ -115,20 +115,6 @@ class SayandeepSinha:
 
 ---
 
-## Featured Projects
-
-<div align="center">
-
-| Project | Description | Tech Stack | Links |
-|: --------|:------------|:-----------|:------|
-| **Project Name 1** | Brief description of what this project does and why it's interesting | React, Node.js, PostgreSQL | [Live](https://link. com) • [Code](https://github.com/sayandeepsinha/project) |
-| **Project Name 2** | Another cool project that showcases your skills | Python, Docker, K8s | [Live](https://link.com) • [Code](https://github.com/sayandeepsinha/project) |
-| **Project Name 3** | Something impressive you've built | Go, AWS, Redis | [Live](https://link.com) • [Code](https://github.com/sayandeepsinha/project) |
-
-</div>
-
----
-
 ## Let's Connect & Collaborate
 
 I'm always open to interesting conversations and collaboration opportunities!  Whether you want to discuss: 
@@ -143,17 +129,14 @@ Feel free to reach out!
 <div align="center">
 
 <p align="center">
-  <a href="https://sayandeepsinha.github.io">
+  <a href="https://sayandeep-sinha.vercel.app/)">
     <img src="https://img.shields.io/badge/WEBSITE-VISIT-4B5563?style=for-the-badge" alt="Website"/>
   </a>
-  <a href="https://www.linkedin.com/in/sayandeepsinha/">
+  <a href="https://www.linkedin.com/in/sayandeep-sinha/">
     <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:youremail@example.com">
+  <a href="mailto:sayandeepx4@gmail.com">
     <img src="https://img.shields.io/badge/EMAIL-DROP_A_LINE-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://twitter.com/yourusername">
-    <img src="https://img.shields.io/badge/TWITTER-FOLLOW-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a>
 </p>
 
