@@ -68,9 +68,6 @@ class SayandeepSinha:
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="65" height="65" alt="JavaScript"/><br>JavaScript
     </td>
     <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="65" height="65" alt="TypeScript"/><br>TypeScript
-    </td>
-    <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="65" height="65" alt="Java"/><br>Java
     </td>
     <td align="center" width="96">
@@ -86,12 +83,6 @@ class SayandeepSinha:
   <tr>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="65" height="65" alt="Docker"/><br>Docker
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="65" height="65" alt="Kubernetes"/><br>Kubernetes
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="65" height="65" alt="AWS"/><br>AWS
     </td>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" width="65" height="65" alt="GCP"/><br>GCP
@@ -116,18 +107,6 @@ class SayandeepSinha:
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" width="65" height="65" alt="Nginx"/><br>Nginx
     </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain.svg" width="65" height="65" alt="GraphQL"/><br>GraphQL
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" width="65" height="65" alt="Terraform"/><br>Terraform
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" width="65" height="65" alt="Jenkins"/><br>Jenkins
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prometheus/prometheus-original.svg" width="65" height="65" alt="Prometheus"/><br>Prometheus
-    </td>
   </tr>
 </table>
 
@@ -143,14 +122,6 @@ class SayandeepSinha:
 | **Project Name 2** | Another cool project that showcases your skills | Python, Docker, K8s | [Live](https://link.com) • [Code](https://github.com/sayandeepsinha/project) |
 | **Project Name 3** | Something impressive you've built | Go, AWS, Redis | [Live](https://link.com) • [Code](https://github.com/sayandeepsinha/project) |
 
-</div>
-
----
-
-## 📊 Contribution Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel. app/graph?username=sayandeepsinha&theme=react-dark&hide_border=true&area=true" width="100%"/>
 </div>
 
 ---
