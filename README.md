@@ -133,51 +133,6 @@ class SayandeepSinha:
 
 ---
 
-## GitHub Analytics
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api? username=sayandeepsinha&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&count_private=true&rank_icon=github" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com?user=sayandeepsinha&theme=react&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
-</div>
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sayandeepsinha&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" />
-</div>
-
----
-
-## 🏆 Professional Journey
-
-```yaml
-experience:
-  - role: "Your Current Role"
-    company: "Your Company"
-    duration: "2023 - Present"
-    highlights:
-      - "Achievement or responsibility #1"
-      - "Achievement or responsibility #2"
-      - "Achievement or responsibility #3"
-  
-  - role: "Previous Role"
-    company: "Previous Company"
-    duration: "2021 - 2023"
-    highlights:
-      - "Key accomplishment or project"
-      - "Technologies and impact"
-
-education:
-  degree: "Your Degree"
-  institution: "Your University"
-  year: "Year"
-
-certifications:
-  - "AWS Certified Solutions Architect"
-  - "Kubernetes Administrator (CKA)"
-  - "Your other certifications"
-```
-
----
-
 ## Featured Projects
 
 <div align="center">
@@ -189,18 +144,6 @@ certifications:
 | **Project Name 3** | Something impressive you've built | Go, AWS, Redis | [Live](https://link.com) • [Code](https://github.com/sayandeepsinha/project) |
 
 </div>
-
----
-
-## Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-- [Your Blog Post Title 1](https://yourblog.com/post1)
-- [Your Blog Post Title 2](https://yourblog.com/post2)
-- [Your Blog Post Title 3](https://yourblog.com/post3)
-<!-- BLOG-POST-LIST:END -->
-
-➡️ [More blog posts... ](https://yourblog.com)
 
 ---
 
