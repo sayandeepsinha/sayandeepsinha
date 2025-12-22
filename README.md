@@ -91,7 +91,7 @@ class SayandeepSinha:
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="65" height="65" alt="PostgreSQL"/><br>PostgreSQL
     </td>
     <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original. svg" width="65" height="65" alt="MongoDB"/><br>MongoDB
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="65" height="65" alt="MongoDB"/><br>MongoDB
     </td>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original. svg" width="65" height="65" alt="Redis"/><br>Redis
