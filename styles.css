@@ -103,7 +103,9 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .art-card strong { font-family: "Space Grotesk", sans-serif; font-size: 3.4rem; letter-spacing: -.08em; line-height: .8; }
 .art-label { bottom: 18%; color: var(--ink); font-family: "Space Grotesk", sans-serif; font-size: 1.45rem; font-weight: 600; line-height: .95; position: absolute; right: 11%; transform: rotate(8deg); }
 .intro-strip { border: 1px solid var(--glass-edge); border-radius: 34px; display: grid; gap: 30px; grid-template-columns: 1fr 3fr; padding: 70px; background: var(--glass); box-shadow: 0 18px 45px rgba(55, 75, 83, .08), inset 0 1px rgba(255, 255, 255, .7); backdrop-filter: blur(22px) saturate(135%); -webkit-backdrop-filter: blur(22px) saturate(135%); }
-.signal-strip + .intro-strip { margin-top: 36px; }
+.intro-section { margin-top: 36px; }
+.intro-section > .section-kicker { margin: 0 0 16px; }
+.intro-section .intro-strip { grid-template-columns: 1fr; }
 .intro-statement { font-family: "Space Grotesk", sans-serif; font-size: clamp(1.7rem, 3.2vw, 3rem); letter-spacing: -.05em; line-height: 1.06; margin: 0; max-width: 780px; }
 .stack-section { align-items: end; display: grid; gap: 40px; grid-template-columns: 1fr 2fr; padding: 105px 0 78px; position: relative; z-index: 1; }
 .stack-section h2 { font-size: clamp(2.3rem, 4vw, 3.8rem); }
@@ -218,9 +220,8 @@ body.page-hidden .scene-orbit, body.page-hidden .hero-scene, body.page-hidden .s
   .hero { display: flex; flex-direction: column; gap: 55px; min-height: auto; padding: 65px 0 78px; }
   .hero-art { align-self: center; height: 78vw; min-height: 280px; min-width: 280px; width: 78vw; }
   .hero-art { border-radius: 32px 32px 72px 32px; }.scene-grid { inset: -10%; transform: perspective(500px) rotateX(58deg) translateY(30px); }.scene-core { height: 100px; width: 100px; }.scene-card-code { left: 5%; transform: rotate(-6deg) scale(.9); }.scene-card-status { right: 4%; transform: rotate(5deg) scale(.9); }.scene-caption { left: 8%; }
-  .signal-strip + .intro-strip { margin-top: 28px; }
+  .intro-section { margin-top: 28px; }
   .intro-strip { display: block; padding: 54px 24px; }
-  .intro-strip .section-kicker { margin-bottom: 25px; margin-left: -20px; }
   .signal-strip { gap: 16px; grid-template-columns: repeat(3, 1fr); }.signal-strip > div { border-right: 0; padding-right: 0; }.signal-command { display: none !important; }
   .resume-section { display: block; padding: 80px 0; }.resume-terminal { margin-top: 45px; }.resume-row { align-items: start; flex-direction: column; gap: 2px; }.resume-row strong { text-align: left; }
   .stack-section { display: block; padding: 80px 0 58px; }
