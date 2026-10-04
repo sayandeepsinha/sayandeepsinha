@@ -317,7 +317,7 @@ if (!motionQuery.matches) {
 }
 
 const motionTargets = document.querySelectorAll(
-  ".reveal-on-scroll, .intro-strip, .resume-section, .stack-section, .principles-section, .work-section, .assistant-section, .contact-section, .project-card, .stack-list span"
+  ".reveal-on-scroll, .intro-strip, .resume-section, .principles-section, .assistant-section, .contact-section, .project-card, .stack-list span"
 );
 motionTargets.forEach((element, index) => {
   element.classList.add("motion-target");
@@ -350,10 +350,11 @@ if ("IntersectionObserver" in window && revealElements.length && !window.matchMe
         entry.target.classList.toggle("motion-reverse", scrollDirection === "up");
         entry.target.classList.add("is-visible");
       } else {
+        entry.target.classList.remove("motion-reverse");
         entry.target.classList.remove("is-visible");
       }
     });
-  }, { threshold: 0.12, rootMargin: "0px 0px -7% 0px" });
+  }, { threshold: 0, rootMargin: "0px" });
   revealElements.forEach((element) => revealObserver.observe(element));
 } else {
   showAllMotionTargets();
@@ -369,10 +370,30 @@ const systemDetails = [
   "Data should be durable, observable, and useful."
 ];
 const systemDetail = document.querySelector("#system-detail");
-document.querySelectorAll(".system-node").forEach((node, index) => {
-  node.addEventListener("click", () => {
-    document.querySelectorAll(".system-node").forEach((item) => item.classList.remove("is-selected"));
-    node.classList.add("is-selected");
+const systemNodes = [...document.querySelectorAll(".system-node")];
+let selectedSystemIndex = 0;
+let systemCycleTimer;
+
+const selectSystemNode = (index) => {
+  selectedSystemIndex = index;
+  systemNodes.forEach((item, itemIndex) => item.classList.toggle("is-selected", itemIndex === index));
+  systemDetail.style.opacity = "0";
+  window.setTimeout(() => {
     systemDetail.textContent = systemDetails[index];
+    systemDetail.style.opacity = "1";
+  }, 125);
+};
+
+systemNodes.forEach((node, index) => {
+  node.addEventListener("click", () => {
+    selectSystemNode(index);
+    window.clearInterval(systemCycleTimer);
+    systemCycleTimer = window.setInterval(() => {
+      selectSystemNode((selectedSystemIndex + 1) % systemNodes.length);
+    }, 1500);
   });
 });
+
+systemCycleTimer = window.setInterval(() => {
+  selectSystemNode((selectedSystemIndex + 1) % systemNodes.length);
+}, 1500);
